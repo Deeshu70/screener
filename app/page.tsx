@@ -9,9 +9,9 @@ export default function Home() {
     <div className="trader-page">
       <header className="terminal-header">
         <nav className="terminal-nav" aria-label="Main navigation">
-          <Link href="/" className="terminal-brand" aria-label="Screener.si home">
-            <span className="brand-mark" aria-hidden="true">S</span>
-            <span>SCREENER<span className="brand-dot">.</span>SI</span>
+          <Link href="/" className="terminal-brand" aria-label="Chartink home">
+            <span className="brand-mark" aria-hidden="true">C</span>
+            <span>CHARTINK</span>
           </Link>
           <div className="nav-center"><span className="live-indicator" /> MARKET INTELLIGENCE FOR ACTIVE TRADERS</div>
           <div className="nav-actions">
@@ -22,13 +22,13 @@ export default function Home() {
       </header>
 
       <main className="trader-main">
-        <div className="launch-ribbon" role="status" aria-label="Screener.si is coming soon">
+        <div className="launch-ribbon" role="status" aria-label="Chartink is coming soon">
           <span className="launch-ribbon-label">
             <span className="launch-ribbon-dot" aria-hidden="true" />
             COMING SOON
           </span>
           <span className="launch-ribbon-copy">THE MARKET SCREEN IS TAKING SHAPE</span>
-          <span className="launch-ribbon-index">SCN / 001</span>
+          <span className="launch-ribbon-index">CHK / 001</span>
         </div>
 
         <section className="trader-hero">
@@ -40,10 +40,10 @@ export default function Home() {
             </h1>
             <p className="trader-description">
               Find momentum. Spot the setup. Cut through the noise.
-              <span> Screener.si is building a sharper way to read the market.</span>
+              <span> Chartink is building a sharper way to read the market.</span>
             </p>
 
-            <section className="build-tracker" aria-label="Screener.si development tracker">
+            <section className="build-tracker" aria-label="Chartink development tracker">
               <div className="build-tracker-heading">
                 <span>BUILD TRACKER <b>/ 01</b></span>
                 <span className="build-active"><i aria-hidden="true" /> IN DEVELOPMENT</span>
@@ -84,7 +84,7 @@ export default function Home() {
 
           <aside className="terminal-card" aria-label="Illustrative market activity">
             <div className="terminal-card-header">
-              <div className="terminal-label"><span className="terminal-symbol">S</span> SCREENER.SI <span className="terminal-slash">/</span> MARKET PULSE</div>
+              <div className="terminal-label"><span className="terminal-symbol">C</span> CHARTINK <span className="terminal-slash">/</span> MARKET PULSE</div>
               <div className="scan-state"><span className="live-indicator" /> SCANNING</div>
             </div>
 
@@ -147,13 +147,13 @@ export default function Home() {
             <div className="terminal-card-footer">
               <span><i className="legend-up" /> SIGNAL FORMING</span>
               <span>ILLUSTRATIVE MARKET ACTIVITY</span>
-              <span className="footer-index">SCN / 001</span>
+              <span className="footer-index">CHK / 001</span>
             </div>
           </aside>
         </section>
 
         <div className="bottom-tape" aria-hidden="true">
-          <span>LESS NOISE</span><b>×</b><span>BETTER CONTEXT</span><b>×</b><span>SHARPER SETUPS</span><b>×</b><span>SCREENER.SI</span>
+          <span>LESS NOISE</span><b>×</b><span>BETTER CONTEXT</span><b>×</b><span>SHARPER SETUPS</span><b>×</b><span>CHARTINK</span>
         </div>
       </main>
     </div>

@@ -17,19 +17,19 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.canonicalUrl),
   title: {
-    default: "Screener.si — A New Perspective on the Market",
-    template: "%s | Screener.si",
+    default: "Chartink — Market Intelligence for Active Traders",
+    template: "%s | Chartink",
   },
   description: siteConfig.metaDescription,
-  applicationName: "Screener.si",
+  applicationName: siteConfig.appName,
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Screener.si — A New Perspective on the Market",
+    title: "Chartink — Market Intelligence for Active Traders",
     description: siteConfig.metaDescription,
     url: "/",
-    siteName: "Screener.si",
+    siteName: siteConfig.appName,
     type: "website",
     locale: "en_US",
     images: [
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Screener.si coming soon brand reveal",
+        alt: "Chartink coming soon market intelligence preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Screener.si — A New Perspective on the Market",
+    title: "Chartink — Market Intelligence for Active Traders",
     description: siteConfig.metaDescription,
     images: ["/og-image.svg"],
   },

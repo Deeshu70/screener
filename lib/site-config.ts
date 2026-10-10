@@ -1,7 +1,7 @@
 export const siteConfig = {
-  appName: "Screener.si",
-  canonicalUrl: "https://screener.si",
+  appName: "Chartink",
+  canonicalUrl: "https://chartink.si",
   metaDescription:
-    "Something new is taking shape in stock market research. Discover Screener.si and register for early access.",
-  contactEmail: process.env.CONTACT_EMAIL ?? "hello@screener.si",
+    "Chartink is building a sharper way to read the market. Join the early-access list for launch updates.",
+  contactEmail: process.env.CONTACT_EMAIL?.trim() || "hello@chartink.si",
 };

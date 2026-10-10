@@ -1,6 +1,6 @@
-# Screener.si coming-soon website
+# Chartink coming-soon website
 
-A premium coming-soon experience for Screener.si with a secure early-access signup flow backed by Supabase.
+A trader-focused coming-soon experience for Chartink with a secure early-access signup flow backed by Supabase.
 
 ## Local development
 
@@ -23,7 +23,7 @@ For local development, put these in `.env.local`:
 ```text
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
-CONTACT_EMAIL=hello@screener.si
+CONTACT_EMAIL=hello@chartink.si
 ```
 
 The `SUPABASE_SERVICE_ROLE_KEY` must remain on the server only. It must never be exposed to the browser.
@@ -59,7 +59,7 @@ This project is set up for Vercel deployment:
 3. In **Project Settings → Environment Variables**, add `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` for Production (and Preview if you want signup enabled on preview deployments).
 4. Deploy the project. Vercel will provide a temporary `*.vercel.app` URL to test.
 5. In **Project Settings → Domains**, add your domain and follow the DNS records Vercel displays. At your domain registrar, create those records exactly; DNS changes can take time to propagate.
-6. Set the domain you want to use as the primary domain in Vercel. The configured canonical URL is currently `https://screener.si`; update `lib/site-config.ts` if your domain is different.
+6. Set `chartink.si` as the primary domain in Vercel and configure its DNS records at your registrar. The canonical URL is configured in `lib/site-config.ts`.
 7. After DNS is verified and the deployment is live, submit a test address and confirm a row appears in Supabase **Table Editor → early_access_signups**.
 
 ## Verification status

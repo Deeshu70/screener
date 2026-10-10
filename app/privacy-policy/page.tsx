@@ -1,12 +1,14 @@
 import Link from "next/link";
 
+import { siteConfig } from "@/lib/site-config";
+
 export default function PrivacyPolicyPage() {
   return (
     <main className="mx-auto max-w-3xl px-6 py-20 text-[#151815] md:px-8">
       <div className="mb-8 flex items-center gap-3">
         <div className="h-3 w-3 bg-[#8BCB55]" aria-hidden="true" />
         <p className="text-[0.72rem] font-semibold uppercase tracking-[0.24em] text-[#777E77]">
-          SCREENER.SI
+          CHARTINK
         </p>
       </div>
 
@@ -27,7 +29,7 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-xl font-semibold">Why email addresses are collected</h2>
           <p>
             Email addresses are collected to contact people about launch updates, product readiness,
-            and important news related to Screener.si. We do not use this information for unrelated
+            and important news related to Chartink. We do not use this information for unrelated
             marketing or third-party promotions.
           </p>
         </section>
@@ -45,7 +47,7 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-xl font-semibold">How users can request removal</h2>
           <p>
             If you want your email address removed from future launch updates, contact the operator
-            at hello@screener.si and request removal. We will remove your record from the signup
+            at {siteConfig.contactEmail} and request removal. We will remove your record from the signup
             list as soon as practicable.
           </p>
         </section>
@@ -53,7 +55,7 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl font-semibold">Contact</h2>
           <p>
-            For privacy questions or removal requests, email hello@screener.si.
+            For privacy questions or removal requests, email {siteConfig.contactEmail}.
           </p>
         </section>
       </div>
